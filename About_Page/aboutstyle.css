@@ -41,13 +41,8 @@ hr {
     color: #0a3b59;
 }
 .bio img {
-    width: 150px;
-    height: 150px;
-    transform: rotate(50deg);
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%;
-    margin-left: 2em;
+    width: 100px;
+    height: 100px; 
 }
 .avatar {
     margin: 0 auto;
@@ -87,4 +82,27 @@ hr {
 
 .carousel-item {
     width: 50vw;
+}
+
+@media (min-width: 400px) {
+    .bio img {
+        width: 150px;
+        height: 150px;
+        transform: rotate(50deg);
+        position: relative;
+        overflow: hidden;
+        border-radius: 50%;
+        margin-left: 2em;
+    }
+}
+
+@media (max-width:600px) {
+    
+    .bio h2 {
+        
+    }
+    
+    .bio p {
+
+    }
 }

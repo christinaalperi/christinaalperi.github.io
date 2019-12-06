@@ -187,3 +187,13 @@ div p {
     background-color: #4F7FC1;
     color: white;
 }
+
+@media (max-width: 600px) {
+    .heading {
+        padding-left: 3em;
+    }
+
+    .form {
+        width: 100%;
+    }
+}

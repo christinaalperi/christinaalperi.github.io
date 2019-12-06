@@ -181,4 +181,14 @@ p {
         flex-wrap: wrap;
     }
     
+    .learn {
+        font-size: 1em;
+        margin-left: 5.5em;
+        background-color: white;
+        color: #4F7FC1;
+    }
+    .learn:hover {
+        background-color: #4F7FC1;
+        color: white;
+    }
 }  
