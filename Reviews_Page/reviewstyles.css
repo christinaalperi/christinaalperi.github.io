@@ -22,7 +22,9 @@ main {
     text-decoration-color:  #4B7BC3;
 
 }
-
+.navbar-toggler {
+    background-color: #0a3b59 !important;
+}
 .navbar-brand:hover {
     text-decoration: underline;
     

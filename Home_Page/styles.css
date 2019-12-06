@@ -28,17 +28,38 @@ h4 {
     margin-right: 2em;
     font-family: 'Libre Baskerville', serif;
 }
-
-.card-transparent {
-    margin-left: 2em;
-}
-
 .card-text {
     width: 100%;
     font-family: 'Lato', sans-serif;
     font-size: 1.7em;
     display: block;
 }
+
+.reviewtext{
+    text-decoration-color: white;
+    text-decoration-line: underline;
+    color:white;
+    font-size: 1.1em;
+}
+.reviewtext:hover{
+    
+    color:white;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1em;
+
+}
+.reviewtext:visited{
+    text-decoration-color:white;
+    color:white;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1em;
+
+}
+.card-transparent {
+    margin-left: 2em;
+}
+
+
 
 .reviewtext{
     text-decoration-color: white;
@@ -93,7 +114,7 @@ img {
     border-radius: 50%;
     margin-top: 2em;
     margin-right: 2em;
-    margin-left: 3em;
+    margin-left: 2em;
 }
 
 iframe {
@@ -109,9 +130,10 @@ iframe {
     width: 8em;
     height: 2.5em;
     margin-right: 2em;
-    margin-left: 5em;
+    margin-left: 3em;
     margin-top: 1em;
 }
+
 
 .learn:hover {
     background-color: #4F7FC1;
@@ -149,3 +171,14 @@ p {
 .reviews {
     display: inline;
 } */
+
+@media only screen and (max-width:1240px) {
+    .d-flex {
+        flex-wrap: wrap;
+    }
+    
+    .p-2 {
+        flex-wrap: wrap;
+    }
+    
+}  
