@@ -1,0 +1,38 @@
+body {
+    font-size: 20px;
+}
+main {
+    background-image: url(/Images/Home_Graphic.png);
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    color: #0a3b59;
+}
+
+.bar {
+    padding: 2em;
+    padding-top: 1em;
+    z-index: 1;
+}
+
+.navbar-brand:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: .8px solid  white;
+}
+
+.carousel-item {
+    width: 50vw;
+
+}
+
+@media (max-width: 900px) {
+    .carousel-item {
+        width: 90vw;
+    }
+}

@@ -1,0 +1,151 @@
+main {
+    background-image: url(/Images/Home_Graphic.png);
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    color: white;
+}
+
+.bar {
+    padding: 2em;
+    z-index: 1;
+}
+
+.navbar-brand:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: 1px solid white;
+}
+
+h4 {
+    font-size: 4em;
+    width: 100%;
+    margin-right: 2em;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.card-transparent {
+    margin-left: 2em;
+}
+
+.card-text {
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.7em;
+    display: block;
+}
+
+.reviewtext{
+    text-decoration-color: white;
+    text-decoration-line: underline;
+    color:white;
+    font-size: 1.1em;
+}
+.reviewtext:hover{
+    
+    color:white;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1em;
+
+}
+.reviewtext:visited{
+    text-decoration-color:white;
+    color:white;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1em;
+
+}
+
+
+/*
+.stars {
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.7em;
+}
+*/
+
+.contact {
+    color: #4F7FC1;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    border-radius: 2em;
+    width: 6.8em;
+    height: 2.5em;
+    cursor: pointer;
+}
+
+.contact:hover {
+    background-color: #4F7FC1;
+    color: white;
+}
+
+.photo {
+    width: 22%;
+}
+
+img {
+    border-radius: 50%;
+    margin-top: 2em;
+    margin-right: 2em;
+    margin-left: 3em;
+}
+
+iframe {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.learn {
+    color: #4F7FC1;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    border-radius: 2em;
+    width: 8em;
+    height: 2.5em;
+    margin-right: 2em;
+    margin-left: 5em;
+    margin-top: 1em;
+}
+
+.learn:hover {
+    background-color: #4F7FC1;
+    color: white;
+}
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.4em;
+    margin-top: 0.7em;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.4em;
+    display: inline;
+}
+
+/* .reviews_container {
+    background-color: #4F7FC1;
+    color: white;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-right: 2em;
+    width: 100vw;
+    height: 100%;
+}
+
+.reviews {
+    display: inline;
+} */

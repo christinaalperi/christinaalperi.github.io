@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        
+    <meta charset="UTF-8">
+        
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Leave a Review</title>
+    <!-- Link to Bootstrap 4 CSS -->
+        
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+        
+    <link href="https://fonts.googleapis.com/css?family=Lato|Libre+Baskerville&display=swap" rel="stylesheet">
+        
+    <link rel="stylesheet" href="reviewform.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <main>
+        <div class="bar">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="/Home_Page/index.html">A + S</a>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+                        <li class="nav-item active">
+                            <a class="navbar-brand" href="/About_Page/about.html">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navbar-brand" href="/Contact_Page/contact.html">CONTACT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navbar-brand" href="/Reviews_Page/reviews.html"><strong>REVIEWS</strong></a>
+                        </li>
+                        <li class="nav-item">
+                                <a class="navbar-brand" href= "/Gallery_Page/gallery.html">GALLERY</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <hr>
+        </div>
+                    
+
+
+        <div class="container-fluid justify-content-center" height= "90vh" width="100%" >
+            <div class = "row"><h4>Let us know what you think.</h4></div>
+
+            <div class="row">
+                <div class="col-lg-2 col-md-1"></div>
+                <div class="col-lg-8 col-md-10 col-sm-12 justify-content-center form">
+                        <textarea class="form-control" id = "name" type = "text"rows="2" placeholder="Name / Dog's Name"></textarea>
+                </div>
+                <div class="col-lg-2 col-md-1"></div>
+            </div>
+
+            <div class = "row">
+                    <div class="col-lg-2 col-md-1"></div>
+                    <div class="col-lg-8 col-md-10 col-sm-12 justify-content-center form">
+                            <!-- <input class="form-control" type="text" placeholder="Leave Your Review Here..." height = "200"> -->
+                            <textarea class="form-control" id = "review" type = "text"rows="9" placeholder="Leave Your Review Here..."></textarea>
+                    </div>
+                    <div class="col-lg-2 col-md-1"></div>
+            </div>
+
+            <div class = "row">
+                <div class="col-lg-4 col-sm-0"></div>
+                    
+                <div class="col-lg-4 col-sm-12 justify-content-center starcard">
+                    <!-- <div class = "card starcard"> -->
+                            <!-- <a class="star1"><i class = "fas fa-star star1i"></i></a>
+                            <i class="fas fa-star star2" > ★</i>
+                            <i class="fas fa-star star3" ></i>
+                            <i class="fas fa-star star4" ></i>
+                            <i class="fas fa-star star5" ></i> -->
+                    <!-- </div> -->
+                    <button class = "star1 star" id = "star1" onclick = "one()" >★</button>
+                    <button class = "star2 star" id = "star2" onclick = "two()" >★</button>
+                    <button class = "star3 star" id = "star3" onclick = "three()" >★</button>
+                    <button class = "star4 star" id = "star4" onclick = "four()" >★</button>
+                    <button class = "star5 star" id = "star5"  >★</button>
+                    <!-- <a class = "star2 star" id = "star2">★</a>
+                    <a class = "star3 star" id = "star3">★</a>
+                    <a class = "star4 star" id = "star4">★</a>
+                    <a class = "star5 star" id = "star5">★</a> -->
+
+                </div>
+                          
+                <div class="col-lg-4 col-sm-0"></div>
+            </div>
+
+            <div class = "row">
+                    <div class="col-lg-5 col-sm-0"></div>
+                        
+                        <div class="col-lg-2 col-sm-12 justify-content-center submit">
+                                <form action="/Thanks_Page/thanks.html" method="get">
+                                        <button type="submit" class="btn btn-default submitbutton" >SUBMIT</button>
+                                </form>
+                                <!-- <button type="button" class="btn btn-default submitbutton" >SUBMIT</button> -->
+                        </div>
+                              
+                        <div class="col-lg-5 col-sm-0"></div>
+            </div>
+
+        </div> 
+
+    </main>
+
+</body>
+<!-- jQuery--this must come first! -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+</script>
+
+<!-- popper.js--a library of drop-down and pop-up JavaScript scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+    integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous">
+</script>
+
+<!-- unique Bootstrap 4 JavaScript scripts -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+    integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous">
+</script>
+
+<script>
+        
+    var name =  document.getElementById("name").value;
+    var review = document.getElementById("review").value;
+        
+</script>
+<script> 
+           
+ 
+        function four(){
+            document.getElementById("star5").style.color = "white";
+       
+        }   
+        function three(){
+            document.getElementById("star4").style.color = "white";
+            document.getElementById("star5").style.color = "white";
+          
+        }   
+        function two(){
+            document.getElementById("star4").style.color = "white";
+            document.getElementById("star5").style.color = "white";
+            
+            document.getElementById("star3").style.color = "white";
+        }   
+        function one(){
+            document.getElementById("star4").style.color = "white";
+            document.getElementById("star2").style.color = "white";
+            document.getElementById("star3").style.color = "white";
+            document.getElementById("star5").style.color = "white";
+        }    
+    </script>  
+
+
+
+
+</html>

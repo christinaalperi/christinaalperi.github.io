@@ -1,0 +1,52 @@
+body {
+    font-size: 20px;
+    background-image: url(/Images/Home_Graphic.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#4d4d4d;
+}
+main {
+    height: auto;
+    overflow:hidden;
+    width: 100vw;
+    width:100%;
+    
+}
+
+.bar {
+    padding: 2em;
+    z-index: 1;
+    color: white;
+    padding-top: 0;
+}
+
+hr {
+    border: 1px solid white;
+}
+
+.navbar-brand {
+    text-decoration-color: #4B7BC3;
+    color: #4B7BC3;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-brand:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: 'Libre Baskerville', serif;
+}
+
+iframe {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1em;  
+    border-radius: 1em;
+
+}
